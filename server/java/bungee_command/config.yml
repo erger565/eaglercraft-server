@@ -1,6 +1,6 @@
+groups: {}
 listeners:
-- motd: '&6An Eaglercraft server'
-  fallback_server: lobby
+- fallback_server: lobby
   tab_list: GLOBAL_PING
   websocket: true
   texture_size: 16
@@ -12,7 +12,7 @@ listeners:
   force_default_server: true
   forward_ip: false
   server_icon: server-icon.png
-player_limit: -1
+  motd1: '&6An Eaglercraft server'
 timeout: 30000
 stats: 595698b3-9c36-4e86-b1ee-cb3027038f41
 servers:
@@ -37,4 +37,4 @@ permissions:
   - bungeecord.command.eag.banned
   - bungeecord.command.eag.banlist
   - bungeecord.command.eag.unban
-groups: {}
+player_limit: -1
