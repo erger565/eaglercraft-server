@@ -1,3 +1,4 @@
+cd ..
 #!/bin/sh
 cd stable-download/bukkit-command
 java -Xmx512M -Xms512M -jar craftbukkit-1.5.2-R1.0.jar
